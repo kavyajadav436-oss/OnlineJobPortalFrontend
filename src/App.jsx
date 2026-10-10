@@ -1,8 +1,7 @@
 import { useEffect, useState } from "react";
 import "./App.css";
 
-const API_URL = "http://localhost:8080/jobs";
-
+const API_URL = "https://online-job-portal-backend-k56x.onrender.com/jobs";
 function App() {
   const [jobs, setJobs] = useState([]);
   const [form, setForm] = useState({
